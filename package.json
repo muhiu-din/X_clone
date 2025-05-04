@@ -1,0 +1,24 @@
+{
+  "name": "x_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhiu-din/X_clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhiu-din/X_clone/issues"
+  },
+  "homepage": "https://github.com/muhiu-din/X_clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
