@@ -23,7 +23,7 @@
                 </g>
             </svg>
             </div>
-            <div class="sidebar flex flex-col">
+            <div class="sidebar flex flex-col justify-center">
                 <ul class="flex flex-col text-xl  gap-2 w-1/2 font-bold">
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined ">
                         home
@@ -59,6 +59,9 @@
                         pending
                         </span>More</li>
                 </ul>
+                <div class="button h-10 w-[90%]">
+                    <button class="bg-blue-500 w-full rounded-full font-bold text-xl h-full mx-2 my-4">Post</button>
+                </div>
             </div>
         </div>
         <div class="second relative w-full border-[1px]  border-x-white border-y-black">
@@ -81,35 +84,63 @@
                    <img class="rounded-full w-10 h-10 " src="images/dp3.jpg" alt="dp3">
                    <input type="text" placeholder="What's happening?" class="outline-none bg-black w-full" />
                 </div>
-                <div class="middle flex flex-row items-center gap-[4px] m-4">
-                    <span class="material-symbols-outlined text-blue-500">
+                <div class="middle flex flex-row items-center gap-[4px] my-4 mx-14">
+                    <span class="material-symbols-outlined text-[18px] text-blue-400">
 public
 </span>
-                    <h2 class="font-bold text-blue-500">Everyone can reply</h2>
+                    <h2 class="font-bold text-blue-400 text-sm">Everyone can reply</h2>
                 </div>
                 <div class="middle2 border border-x-transparent flex flex-row items-center justify-between">
-                    <div class="left m-4 ">
-                        <span class="material-symbols-outlined text-blue-500">
+                    <div class="left my-4 mx-14 ">
+                        <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">
 image
 </span>
-                        <span class="material-symbols-outlined text-blue-500">
+                        <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">
 gif_box
 </span>
-                        <span class="material-symbols-outlined text-blue-500">
+                        <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">
 checklist_rtl
 </span>
-                        <span class="material-symbols-outlined text-blue-500">
+                        <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">
 sentiment_satisfied
 </span>
-                        <span class="material-symbols-outlined text-blue-500">
+                        <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">
 pending_actions
 </span>
-                        <span class="material-symbols-outlined text-blue-500">
+                        <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">
 location_on
 </span>
                     </div>
                     <div class="right m-4">
                         <button class="bg-blue-500 text-white rounded-full px-5  font-bold">Post</button>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post1 flex flex-row gap-2 ">
+                    <div class="image flex flex-col justify-start">
+                        <img alt="Image" draggable="true" src="https://pbs.twimg.com/profile_images/1567704552283193345/wMLFemzm_400x400.jpg"
+                         class="css-9pa8cd rounded-full w-12 h-12 m-2">
+                    </div>
+                    <div class="content flex flex-col gap-2 my-2">
+                        <div class="top">
+                            <div class="id flex flex-row gap-2 items-center"> 
+                               <div class="username flex flex-row gap-1  items-center">
+                                 <h3 class="font-bold text-sm">Jackson Hinkle</h3>
+                                <span class="material-symbols-outlined text-blue-500 text-sm mt-1">
+                                    verified
+                                    </span>
+                               </div>
+                               <div class="userId flex flex-row gap-1 mt-[1px]  items-center">
+                                 <h5 class="text-gray-400 text-xs">@jacksonhinklle</h5>
+                                 <h1 class="text-gray-400 text-xs font-bold">.</h1>
+                                 <h5 class="text-gray-400 text-xs">4h</h5>
+                               </div>
+                               
+                            
+                            </div>
+                           
+                        </div>
                     </div>
                 </div>
             </div>
@@ -129,26 +160,26 @@ location_on
             <div class="content w-1/2 p-2 m-2 rounded-xl bg-gray-800">
                 <h1 class="font-bold text-l mb-4">What's happening</h1>
                 <div class="c1 hover:bg-gray-700 hover:cursor-pointer rounded-xl p-2">
-                    <h5 class="text-gray-500 text-sm">Trending in Pakistan</h5>
+                    <h5 class="text-gray-400 text-sm">Trending in Pakistan</h5>
                     <h3 class="font-bold">#Imran Khan</h3>
-                    <h5 class="text-gray-500 text-sm">450k posts</h5>
+                    <h5 class="text-gray-400 text-sm">450k posts</h5>
                 </div>
                 <div class="c2 hover:bg-gray-700 hover:cursor-pointer rounded-xl p-2">
-                    <h5 class="text-gray-500 text-sm">Trending in Pakistan</h5>
+                    <h5 class="text-gray-400 text-sm">Trending in Pakistan</h5>
                     <h3 class="font-bold">#Pak vs India</h3>
-                    <h5 class="text-gray-500 text-sm">950k posts</h5>
+                    <h5 class="text-gray-400 text-sm">950k posts</h5>
                 </div>
                 <div class="c3 hover:bg-gray-700 hover:cursor-pointer rounded-xl p-2">
-                    <h5 class="text-gray-500 text-sm">Trending in Pakistan</h5>
+                    <h5 class="text-gray-400 text-sm">Trending in Pakistan</h5>
                     <h3 class="font-bold">#WW3</h3>
-                    <h5 class="text-gray-500 text-sm">1.2M posts</h5>
+                    <h5 class="text-gray-400 text-sm">1.2M posts</h5>
                 </div>
                 <div class="c4 hover:bg-gray-700 hover:cursor-pointer rounded-xl p-2">
-                    <h5 class="text-gray-500 text-sm">Trending in Pakistan</h5>
+                    <h5 class="text-gray-400 text-sm">Trending in Pakistan</h5>
                     <h3 class="font-bold">#BitCoin</h3>
-                    <h5 class="text-gray-500 text-sm">190k posts</h5>
+                    <h5 class="text-gray-400 text-sm">190k posts</h5>
                 </div>
-               <span class="text-blue-500 font-bold  hover:text-blue-300 hover:cursor-pointer">Show more</span>
+               <span class="text-blue-400 font-bold  hover:text-blue-300 hover:cursor-pointer">Show more</span>
                 
 
             </div>
@@ -161,7 +192,7 @@ location_on
                    <div class="account flex flex-row gap-3 items-center ">
                    <div class="names">
                     <h3 class="text-sm font-bold">Muhiu Din</h3>
-                    <h5 class="text-gray-500 text-xs">@muhiu_din</h5></div>
+                    <h5 class="text-gray-400 text-xs">@muhiu_din</h5></div>
                    <div class="action"><button class="bg-white text-black rounded-xl text-sm px-2 font-bold">Follow</button></div>
                    </div>
                   
@@ -173,12 +204,12 @@ location_on
                    <div class="account flex flex-row gap-7 items-center ">
                    <div class="names">
                     <h3 class="text-sm font-bold">Amir Ali</h3>
-                    <h5 class="text-gray-500 text-xs">@ali_amir</h5></div>
+                    <h5 class="text-gray-400 text-xs">@ali_amir</h5></div>
                    <div class="action"><button class="bg-white text-black rounded-xl text-sm px-2  font-bold">Follow</button></div>
                    </div>
                   
                 </div>
-               <span class="text-blue-500 font-bold  hover:text-blue-300 hover:cursor-pointer">Show more</span>
+               <span class="text-blue-400 font-bold  hover:text-blue-300 hover:cursor-pointer">Show more</span>
               
             </div>
         </div>
