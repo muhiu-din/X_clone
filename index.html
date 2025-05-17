@@ -11,9 +11,9 @@
 </head>
 
 <body class="bg-black text-white">
-    <div class="flex container mx-auto my-5">
-        <div class="first w-[70%] flex flex-col items-end">
-            <div class="logo mb-5 w-[100%]">
+    <div class="flex container">
+        <div class="first w-[70%] flex flex-col items-end position sticky overflow-y-auto top-0 h-screen px-auto py-5">
+            <div class="logo mb-5 w-[100%] ">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
                 class="w-8 invert m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
                 <g>
@@ -27,44 +27,44 @@
                 <ul class="flex flex-col text-xl  gap-2 w-1/2 font-bold">
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined ">
                         home
-                        </span>Home</li>
+                        </span><span class="hidden md:block" >Home</li></span>
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined ">
                         search
-                        </span>Explore</li>
+                        </span><span class="hidden md:block" >Explore</span><li>
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined">
                         notifications
-                        </span>Notifications</li>
+                        </span><span class="hidden md:block" >Notifications</span></li>
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined">
                         mail
-                        </span>Messages</li>
+                        </span><span class="hidden md:block" >Messages</span></li>
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined">
                         group_work
-                        </span>Grok</li>
+                        </span><span class="hidden md:block" >Grok</li></span>
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined">
                         lists
-                        </span>Lists</li>
+                        </span><span class="hidden md:block" >Lists</span></li>
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined">
                         bookmark
-                        </span>Bookmarks</li>
+                        </span><span class="hidden md:block" >Bookmarks</span></li>
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined">
                         group
-                        </span>Communities</li>
+                        </span><span class="hidden md:block" >Communities</span></li>
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined">
                         paid
-                        </span>Premium</li>
+                        </span><span class="hidden md:block" >Premium</span></li>
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined">
                         person
-                        </span>Profile</li>
+                        </span><span class="hidden md:block" >Profile</span></li>
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined">
                         pending
-                        </span>More</li>
+                        </span><span class="hidden md:block" >More</li></span>
                 </ul>
                 <div class="button h-10 w-[90%]">
                     <button class="bg-blue-500 w-full rounded-full font-bold text-xl h-full mx-2 my-4">Post</button>
                 </div>
             </div>
         </div>
-        <div class="second relative w-full border-[1px]  border-x-white border-y-black">
+        <div class="second relative w-full border-[1px]  border-x-white border-y-black px-auto py-3" style="scrollbar-width: none;">
             <div class="top flex flex-row w-full h-12 border-[1px] border-x-transparent border-t-transparent border-b-white">
                <div class="left w-1/2 hover:bg-gray-700 flex flex-col items-center justify-center font-bold">
                 <div> For You</div> 
@@ -214,7 +214,7 @@ upgrade
                                <div class="userId flex flex-row gap-1 mt-[1px]  items-center">
                                  <h5 class="text-gray-400 text-xs">@jacksonhinklle</h5>
                                  <h1 class="text-gray-400 text-xs font-bold">.</h1>
-                                 <h5 class="text-gray-400 text-xs">4h</h5>
+                                 <h5 class="text-gray-400 text-xs">1d</h5>
                                </div>
                              
                                                   
@@ -231,11 +231,11 @@ upgrade
                         <div class="middle flex flex-col justify-start gap-1">
                             <div class="caption">
                                 <p class="text-sm">
-                                    FOOTBALL LEGEND INZAGHI AND PISA PLAYERS CELEBRATE SERIE A PROMOTION BY WAVING THE PALESTINIAN FLAG
+                                   Congratulations to Pakistan for winning the war against India.
                                 </p>
                             </div>
                             <div class="img">
-                                <img class="rounded-xl w-auto h-auto" src="images/post1.jpg" alt="post">
+                                <img class="rounded-xl w-auto h-auto" src="images/post2.webp" alt="post">
                             </div>
                         </div>
                         <div class="bottom flex flex-row justify-between items-center mb-2 mt-3">
@@ -243,25 +243,25 @@ upgrade
                                 <span class="material-symbols-outlined text-gray-400">
 chat_bubble
 </span>
-                                <h5 class=" text-xs text-gray-400">45k</h5>
+                                <h5 class=" text-xs text-gray-400">965k</h5>
                             </div>
                             <div class="reshare flex flex-row items-center gap-1">
                                 <span class="material-symbols-outlined text-gray-400">
 autorenew
 </span>
-                                <h5 class=" text-xs text-gray-400">23k</h5>
+                                <h5 class=" text-xs text-gray-400">233k</h5>
                             </div>
                             <div class="like flex flex-row items-center gap-1">
                                 <span class="material-symbols-outlined text-gray-400">
 favorite
 </span>
-                                <h5 class=" text-xs text-gray-400">120k</h5>
+                                <h5 class=" text-xs text-gray-400">250k</h5>
                             </div>
                             <div class="reach flex flex-row items-center gap-1">
                                 <span class="material-symbols-outlined text-gray-400">
 equalizer
 </span>
-                                <h5 class=" text-xs text-gray-400">1.2M</h5>
+                                <h5 class=" text-xs text-gray-400">5.1M</h5>
                                 </div>
                                 <div class="more flex flex-row ">
                                     <span class="material-symbols-outlined text-gray-400">
@@ -278,8 +278,8 @@ upgrade
                 </div> 
             </div>
         </div>
-        <div class="third w-full">
-            <div class="search w-1/2 rounded-full p-2 mx-2 bg-gray-800 flex flex-row justify-center gap-2">
+        <div  class="third w-full position sticky top-0 overflow-y-auto h-screen px-auto py-5" style="scrollbar-width: none;">
+            <div class="search w-1/2 rounded-full p-2 mx-2 bg-gray-800 flex flex-row justify-center gap-2 ">
                 <span class="material-symbols-outlined">
                     search
                 </span>
@@ -345,6 +345,25 @@ upgrade
                <span class="text-blue-400 font-bold  hover:text-blue-300 hover:cursor-pointer">Show more</span>
               
             </div>
+            <div class="privacy_policy text-xs text-gray-500 flex flex-wrap justify-between gap-y-1 p-1 m-1 w-1/2 border-gray-700">
+  <a href="#" class="hover:underline">Terms of Service</a>
+  <span>|</span>
+  <a href="#" class="hover:underline">Privacy Policy</a>
+  <span>|</span>
+  <a href="#" class="hover:underline">Cookie Policy</a>
+  <span>|</span>
+  <a href="#" class="hover:underline">MStV Transparenzangaben</a>
+  <span>|</span>
+  <a href="#" class="hover:underline">Imprint</a>
+  <span>|</span>
+  <a href="#" class="hover:underline">Accessibility</a>
+  <span>|</span>
+  <a href="#" class="hover:underline">Ads info</a>
+  <span>|</span>
+  <a href="#" class="hover:underline">More …</a>
+  <span class="w-full text-center mt-1">© 2025 X Corp.</span>
+</div>
+
         </div>
     </div>
     
