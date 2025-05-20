@@ -12,7 +12,7 @@
 
 <body class="bg-black text-white">
     <div class="flex container">
-        <div class="first w-[70%] flex flex-col items-end position sticky overflow-y-auto top-0 h-screen px-auto py-5">
+        <div class="first w-[30%]  md:w-[70%] md:items-end flex flex-col items-center sticky overflow-y-auto top-0 h-screen px-auto py-5" style="scrollbar-width: none;">
             <div class="logo mb-5 w-[100%] ">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
                 class="w-8 invert m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
@@ -23,8 +23,8 @@
                 </g>
             </svg>
             </div>
-            <div class="sidebar flex flex-col justify-center">
-                <ul class="flex flex-col text-xl  gap-2 w-1/2 font-bold">
+            <div class="sidebar flex flex-col justify-between h-full">
+                <ul class="flex flex-col text-xl  gap-2 w-1/2 justify-between h-auto font-bold">
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined ">
                         home
                         </span><span class="hidden md:block" >Home</li></span>
@@ -60,12 +60,30 @@
                         </span><span class="hidden md:block" >More</li></span>
                 </ul>
                 <div class="button h-10 w-[90%]">
-                    <button class="bg-blue-500 w-full rounded-full font-bold text-xl h-full mx-2 my-4">Post</button>
+                    <button class="bg-blue-500 w-full rounded-full font-bold text-xl h-full mx-2 my-4"><div class="hidden md:block">Post</div>
+                        <span class="material-symbols-outlined block md:hidden w-auto h-auto">
+edit
+</span>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="profile mt-5 w-[30%] md:w-[65n%]">
+                <div class="pic flex flex-row items-center gap-2 hover:bg-gray-700 hover:cursor-pointer rounded-full p-2">
+                    <img class="rounded-full w-12 h-12" src="images/dp3.jpg" alt="dp3">
+                    <div class="box hidden md:block "><div class="names">
+                        <h3 class="text-sm font-bold">Jackson Hinkle</h3>
+                        <h5 class="text-gray-400 text-xs">@jacksonhinklle</h5>
+                    </div>
+                    </div>
+                    <span class="material-symbols-outlined text-blue-500 hidden md:block  text-sm mb-3">
+                        verified
+                        </span>
                 </div>
             </div>
         </div>
-        <div class="second relative w-full border-[1px]  border-x-white border-y-black px-auto py-3" style="scrollbar-width: none;">
-            <div class="top flex flex-row w-full h-12 border-[1px] border-x-transparent border-t-transparent border-b-white">
+        <div class="second relative w-full border-[1px]  border-x-gray-600 border-y-black px-auto py-3" style="scrollbar-width: none;">
+            <div class="top flex flex-row w-full h-12 border-[1px] border-x-transparent border-t-transparent border-b-gray-600">
                <div class="left w-1/2 hover:bg-gray-700 flex flex-col items-center justify-center font-bold">
                 <div> For You</div> 
                 <div class="line  bg-blue-700 rounded-full mt-1 w-14 h-1"></div>
@@ -90,7 +108,7 @@ public
 </span>
                     <h2 class="font-bold text-blue-400 text-sm">Everyone can reply</h2>
                 </div>
-                <div class="middle2 border border-x-transparent flex flex-row items-center justify-between">
+                <div class="middle2 border border-x-transparent border-y-gray-600 flex flex-row items-center justify-between">
                     <div class="left my-4 mx-14 ">
                         <span class="material-symbols-outlined text-blue-400 hover:cursor-pointer">
 image
@@ -158,36 +176,36 @@ location_on
                                 <img class="rounded-xl w-auto h-auto" src="images/post1.jpg" alt="post">
                             </div>
                         </div>
-                        <div class="bottom flex flex-row justify-between items-center mb-2 mt-3">
+                         <div class="bottom flex flex-row justify-between items-center mb-2 mt-3">
                             <div class="comment flex flex-row items-center gap-1">
-                                <span class="material-symbols-outlined text-gray-400">
+                                <span class="material-symbols-outlined hover:text-blue-500 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 chat_bubble
 </span>
-                                <h5 class=" text-xs text-gray-400">45k</h5>
+                                <h5 class=" text-xs hover:text-blue-500 text-gray-400">965k</h5>
                             </div>
                             <div class="reshare flex flex-row items-center gap-1">
-                                <span class="material-symbols-outlined text-gray-400">
+                                <span class="material-symbols-outlined  hover:text-green-600 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 autorenew
 </span>
-                                <h5 class=" text-xs text-gray-400">23k</h5>
+                                <h5 class=" text-xshover:text-green-600 text-gray-400">233k</h5>
                             </div>
                             <div class="like flex flex-row items-center gap-1">
-                                <span class="material-symbols-outlined text-gray-400">
+                                <span class="material-symbols-outlined  hover:text-red-600 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 favorite
 </span>
-                                <h5 class=" text-xs text-gray-400">120k</h5>
+                                <h5 class=" text-xs hover:text-red-600 text-gray-400">250k</h5>
                             </div>
                             <div class="reach flex flex-row items-center gap-1">
-                                <span class="material-symbols-outlined text-gray-400">
+                                <span class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 equalizer
 </span>
-                                <h5 class=" text-xs text-gray-400">1.2M</h5>
+                                <h5 class=" text-xs hover:text-blue-500 text-gray-400">5.1M</h5>
                                 </div>
                                 <div class="more flex flex-row ">
-                                    <span class="material-symbols-outlined text-gray-400">
+                                    <span class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 bookmark
 </span>
-<span class="material-symbols-outlined text-gray-400">
+<span class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 upgrade
 </span>
                                 </div>
@@ -196,7 +214,7 @@ upgrade
                     </div>
                     
                 </div>
-                <hr>
+                <hr class="border-gray-600" />
                  <div class="post2 flex flex-row gap-2 m-2">
                     <div class="image flex w-14 flex-col justify-start">
                         <img alt="Image" draggable="true" src="https://pbs.twimg.com/profile_images/1567704552283193345/wMLFemzm_400x400.jpg"
@@ -240,34 +258,34 @@ upgrade
                         </div>
                         <div class="bottom flex flex-row justify-between items-center mb-2 mt-3">
                             <div class="comment flex flex-row items-center gap-1">
-                                <span class="material-symbols-outlined text-gray-400">
+                                <span class="material-symbols-outlined hover:text-blue-500 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 chat_bubble
 </span>
-                                <h5 class=" text-xs text-gray-400">965k</h5>
+                                <h5 class=" text-xs hover:text-blue-500 text-gray-400">965k</h5>
                             </div>
                             <div class="reshare flex flex-row items-center gap-1">
-                                <span class="material-symbols-outlined text-gray-400">
+                                <span class="material-symbols-outlined  hover:text-green-600 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 autorenew
 </span>
-                                <h5 class=" text-xs text-gray-400">233k</h5>
+                                <h5 class=" text-xshover:text-green-600 text-gray-400">233k</h5>
                             </div>
                             <div class="like flex flex-row items-center gap-1">
-                                <span class="material-symbols-outlined text-gray-400">
+                                <span class="material-symbols-outlined  hover:text-red-600 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 favorite
 </span>
-                                <h5 class=" text-xs text-gray-400">250k</h5>
+                                <h5 class=" text-xs hover:text-red-600 text-gray-400">250k</h5>
                             </div>
                             <div class="reach flex flex-row items-center gap-1">
-                                <span class="material-symbols-outlined text-gray-400">
+                                <span class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 equalizer
 </span>
-                                <h5 class=" text-xs text-gray-400">5.1M</h5>
+                                <h5 class=" text-xs hover:text-blue-500 text-gray-400">5.1M</h5>
                                 </div>
                                 <div class="more flex flex-row ">
-                                    <span class="material-symbols-outlined text-gray-400">
+                                    <span class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 bookmark
 </span>
-<span class="material-symbols-outlined text-gray-400">
+<span class="material-symbols-outlined  hover:text-blue-500 hover:bg-gray-600 hover:cursor-pointer  text-gray-400">
 upgrade
 </span>
                                 </div>
@@ -278,7 +296,7 @@ upgrade
                 </div> 
             </div>
         </div>
-        <div  class="third w-full position sticky top-0 overflow-y-auto h-screen px-auto py-5" style="scrollbar-width: none;">
+        <div  class="third hidden md:block w-full position sticky top-0 overflow-y-auto h-screen px-auto py-5" style="scrollbar-width: none;">
             <div class="search w-1/2 rounded-full p-2 mx-2 bg-gray-800 flex flex-row justify-center gap-2 ">
                 <span class="material-symbols-outlined">
                     search
