@@ -12,7 +12,7 @@
 
 <body class="bg-black text-white">
     <div class="flex container">
-        <div class="first w-[30%]  md:w-[70%] md:items-end flex flex-col items-center sticky overflow-y-auto top-0 h-screen px-auto py-5" style="scrollbar-width: none;">
+        <div class="first w-[30%]  md:w-[70%] md:items-end flex flex-col items-center sticky overflow-y-auto top-0 h-screen  px-auto py-5" style="scrollbar-width: none;">
             <div class="logo mb-5 w-[100%] ">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
                 class="w-8 invert m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
@@ -23,8 +23,9 @@
                 </g>
             </svg>
             </div>
-            <div class="sidebar flex flex-col justify-between h-full">
-                <ul class="flex flex-col text-xl  gap-2 w-1/2 justify-between h-auto font-bold">
+            <div class="sidebar flex flex-col justify-between gap-2 h-auto">
+               <div class="ul">
+                 <ul class="flex flex-col text-xl  gap-2 w-1/2 justify-between h-auto font-bold">
                     <li class="flex flex-row items-center w-fit gap-3 hover:bg-gray-700 hover:cursor-pointer hover:rounded-full px-5 py-1/2"><span class="material-symbols-outlined ">
                         home
                         </span><span class="hidden md:block" >Home</li></span>
@@ -59,6 +60,7 @@
                         pending
                         </span><span class="hidden md:block" >More</li></span>
                 </ul>
+               </div>
                 <div class="button h-10 w-[90%]">
                     <button class="bg-blue-500 w-full rounded-full font-bold text-xl h-full mx-2 my-4"><div class="hidden md:block">Post</div>
                         <span class="material-symbols-outlined block md:hidden w-auto h-auto">
@@ -67,21 +69,27 @@ edit
                     </button>
                 </div>
                 
+                
             </div>
-            <div class="profile mt-5 w-[30%] md:w-[65n%]">
-                <div class="pic flex flex-row items-center gap-2 hover:bg-gray-700 hover:cursor-pointer rounded-full p-2">
-                    <img class="rounded-full w-12 h-12" src="images/dp3.jpg" alt="dp3">
-                    <div class="box hidden md:block "><div class="names">
-                        <h3 class="text-sm font-bold">Jackson Hinkle</h3>
-                        <h5 class="text-gray-400 text-xs">@jacksonhinklle</h5>
-                    </div>
-                    </div>
-                    <span class="material-symbols-outlined text-blue-500 hidden md:block  text-sm mb-3">
-                        verified
+            <div class="profile  mt-10 mx-2 hover:bg-gray-600 px-4 py-2 rounded-lg">
+                    <div class="pic flex flex-row items-center gap-3">
+                        <div class="image">
+                            <img class="rounded-full w-12 h-12" src="images/dp3.jpg" alt="dp3">
+                        </div>
+                       <div class="hidden md:block">
+                        <div class="content flex flex-row gap-2">
+                         <div class="names ">
+                            <h3 class="text-sm font-bold">Muhiu Din</h3>
+                            <h5 class="text-gray-400 text-xs">@muhiu_din</h5>
+                        </div>
+                        <span class="material-symbols-outlined text-sm mt-[2px]">
+                             verified
                         </span>
+                       </div>
+                       </div>
+                    </div>
                 </div>
             </div>
-        </div>
         <div class="second relative w-full border-[1px]  border-x-gray-600 border-y-black px-auto py-3" style="scrollbar-width: none;">
             <div class="top flex flex-row w-full h-12 border-[1px] border-x-transparent border-t-transparent border-b-gray-600">
                <div class="left w-1/2 hover:bg-gray-700 flex flex-col items-center justify-center font-bold">
