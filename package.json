@@ -8,17 +8,10 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/muhiu-din/X_clone.git"
-  },
-  "keywords": ["vite", "tailwindcss", "twitter-clone"],
-  "author": "Muhiu Din",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/muhiu-din/X_clone/issues"
+  "engines": {
+    "node": ">=18"
   },
-  "homepage": "https://github.com/muhiu-din/X_clone#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
